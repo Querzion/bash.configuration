@@ -10,11 +10,19 @@ NC='\033[0m' # No Color
 
 ############ FILE & FOLDER PATHS
 # CHANGE THE FOLDER NAME & LOCATION IF YOU RENAME THE FOLDER
+
 DIR_NAME="bash.starship.installer"
 BASEDIR="$DIR_NAME/files"
 BASHRC="$BASEDIR/.bashrc"
 STC="$BASEDIR/starship.theme.changer.sh"
 FONT_FILE="$BASEDIR/fonts.txt"
+
+# Critical font
+CRITICAL_FONT_NAME="JetBrains Mono"
+CRITICAL_FONT_URL="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip"
+
+# Directory to install fonts
+FONT_DIR="$HOME/.local/share/fonts"
 
 
 ######################################################################################################### FONT INSTALLATION ('UN-DETAILED')
