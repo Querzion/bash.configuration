@@ -143,8 +143,8 @@ install_fonts_detailed() {
 ############ CHANGE .BASHRC - MAIN
 
 echo -e "${PURPLE} LETS BE FIXING THE BASH! ${NC}"
-echo "First lets get the NerdFonts! All of them? ALL OF THEM!"
-echo "Well, only if you want! Press something else then Y/y, and you will install the default critical font JetBrains Mono"
+echo -e "${GREEN} First lets get the NerdFonts! All of them? ALL OF THEM! ${NC}"
+echo -e "${YELLOW} Well, only if you want! Press something else then Y/y, and you will install the default critical font JetBrains Mono ${NC}"
 
 #install_fonts
 install_fonts_detailed
