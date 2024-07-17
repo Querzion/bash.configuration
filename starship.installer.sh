@@ -8,14 +8,14 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 NC='\033[0m' # No Color
 
-BASHRC="$HOME/bash.starship.installer/files/.bashrc"
-STC="$HOME/bash.starship.installer/files/starship.theme.changer.sh"
+############ FILE & FOLDER PATHS
+# CHANGE THE FOLDER NAME & LOCATION IF YOU RENAME THE FOLDER
+DIR_NAME="bash.starship.installer"
+BASEDIR="$DIR_NAME/files"
+BASHRC="$BASEDIR/.bashrc"
+STC="$BASEDIR/starship.theme.changer.sh"
+FONT_FILE="$BASEDIR/fonts.txt"
 
-################################################################### CHANGE .BASHRC
-############ .BASHRC
-
-echo -e "${PURPLE} LETS BE FIXING THE BASH! ${NC}"
-echo "First lets get the NerdFonts! All of them? ALL OF THEM!"
 
 ######################################################################################################### FONT INSTALLATION ('UN-DETAILED')
 ################################ FONT INSTALLATION ('UN-DETAILED')
@@ -129,6 +129,13 @@ install_fonts_detailed() {
   unzip -l /tmp/font.zip | awk '{print $2}' | tail -n +4 | head -n -2
   fc-cache -f -v
 }
+
+
+################################################################### CHANGE .BASHRC - MAIN 
+############ CHANGE .BASHRC - MAIN
+
+echo -e "${PURPLE} LETS BE FIXING THE BASH! ${NC}"
+echo "First lets get the NerdFonts! All of them? ALL OF THEM!"
 
 #install_fonts
 install_fonts_detailed
