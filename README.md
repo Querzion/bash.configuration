@@ -8,7 +8,6 @@ chmod +x -r $HOME/bash.configuration
 ```bash
 sh $HOME/bash.configuration/installer.sh
 ```
-
 ### Installs 
   -  StarShip
   -  NerdFonts
