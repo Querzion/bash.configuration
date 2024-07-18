@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 ############ FILE & FOLDER PATHS
 # CHANGE THE FOLDER NAME & LOCATION IF YOU RENAME THE FOLDER
 
-DIR_NAME="bash.starship.installer"
+DIR_NAME="bash.configuration"
 BASEDIR="$DIR_NAME/files"
 BASHRC="$BASEDIR/.bashrc"
 STC="$BASEDIR/starship.theme.changer.sh"
